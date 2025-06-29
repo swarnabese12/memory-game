@@ -14,17 +14,17 @@ A simple emoji-based memory matching game built with Rust, using the `egui` and 
 
 ## 📁 Project Structure
 
-main.rs – Entry point and game logic
+`main.rs` – Entry point and game logic
 
-Card struct – Represents each card's emoji and state (Hidden, Revealed, Matched)
+`Card struct` – Represents each card's emoji and state (Hidden, Revealed, Matched)
 
-MemoryGameApp – The main game state and GUI renderer
+`MemoryGameApp` – The main game state and GUI renderer
 
 ## 📦 Dependencies
 
-eframe – Native windowing and app framework
+`eframe` – Native windowing and app framework
 
-egui – Immediate mode GUI for Rust
+`egui` – Immediate mode GUI for Rust
 
-rand – Random shuffle logic for the card grid
+`rand` – Random shuffle logic for the card grid
 
